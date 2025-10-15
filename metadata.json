@@ -1,0 +1,16 @@
+{
+  "description": "macOS-inspired quick menu for GNOME",
+  "donations": {
+    "custom": "https://revolut.me/arnisk"
+  },
+  "name": "Kiwi Menu",
+  "settings-schema": "org.gnome.shell.extensions.kiwimenu",
+  "shell-version": [
+    "48",
+    "49"
+  ],
+  "url": "https://github.com/kem-a/kiwimenu-kemma",
+  "uuid": "kiwimenu@kemma",
+  "version": "",
+  "version-name": "0.0.1"
+}
