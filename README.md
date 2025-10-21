@@ -11,8 +11,9 @@ Kiwi Menu replaces the Activities button with a compact, macOS-inspired launcher
 - **Recent items submenu**: Hover or click to browse recent files and folders with automatic section headers and quick launch support.
 - **Force Quit overlay**: Launches the built-in xkill helper from the menu when an app misbehaves.
 - **Adaptive logout label**: Personalizes the log out entry with your full name when available.
-- **Preferences that persist**: Remembers window geometry so the settings dialog reopens exactly how you left it.
+- **Hide Activities**: Hide activities button in top panel.
 
+<img width="284" height="456" alt="Screenshot From 2025-10-21 17-08-43" src="https://github.com/user-attachments/assets/d24d6dc6-de77-435b-9425-910109f6b850" />
 
 ## Testing changes
 
