@@ -13,7 +13,8 @@ Kiwi Menu replaces the Activities button with a compact, macOS-inspired launcher
 - **Adaptive logout label**: Personalizes the log out entry with your full name when available.
 - **Hide Activities**: Hide activities button in top panel.
 
-<img width="284" height="456" alt="Screenshot From 2025-10-21 17-08-43" src="https://github.com/user-attachments/assets/d24d6dc6-de77-435b-9425-910109f6b850" />
+<img width="599" height="450" alt="Screenshot From 2025-10-24 17-31-09" src="https://github.com/user-attachments/assets/bc2c7893-42a0-4f74-bf98-4764224f9985" />
+
 
 ## Testing changes
 
