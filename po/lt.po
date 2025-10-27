@@ -17,100 +17,100 @@ msgstr ""
 
 #: src/kiwimenu.js
 msgid "About This PC"
-msgstr ""
+msgstr "Apie šį kompiuterį"
 
 #: src/kiwimenu.js
 msgid "System Settings..."
-msgstr ""
+msgstr "Sistemos nustatymai..."
 
 #: src/kiwimenu.js
 msgid "App Store..."
-msgstr ""
+msgstr "Programų parduotuvė..."
 
 #: src/kiwimenu.js
 msgid "Recent Items"
-msgstr ""
+msgstr "Naujausi elementai"
 
 #: src/kiwimenu.js
 msgid "Force Quit"
-msgstr ""
+msgstr "Priverstinis išjungimas"
 
 #: src/kiwimenu.js
 msgid "Sleep"
-msgstr ""
+msgstr "Užmigdyti"
 
 #: src/kiwimenu.js
 msgid "Restart..."
-msgstr ""
+msgstr "Paleisti iš naujo..."
 
 #: src/kiwimenu.js
 msgid "Shut Down..."
-msgstr ""
+msgstr "Išjungti..."
 
 #: src/kiwimenu.js
 msgid "Lock Screen"
-msgstr ""
+msgstr "Užrakinti ekraną"
 
 #: src/kiwimenu.js
 msgid "Log Out..."
-msgstr ""
+msgstr "Atsijungti..."
 
 #: src/kiwimenu.js
 #, javascript-format
 msgid "Log Out %s..."
-msgstr ""
+msgstr "Atsijungti %s..."
 
 #: src/recentItemsSubmenu.js
 msgid "No recent items"
-msgstr ""
+msgstr "Nėra naujausių elementų"
 
 #: src/recentItemsSubmenu.js
 msgid "Files"
-msgstr ""
+msgstr "Failai"
 
 #: src/recentItemsSubmenu.js
 msgid "Folders"
-msgstr ""
+msgstr "Aplankai"
 
 #: src/recentItemsSubmenu.js
 msgid "Clear menu"
-msgstr ""
+msgstr "Išvalyti meniu"
 
 #: prefs.js
 msgid "Options"
-msgstr ""
+msgstr "Parinktys"
 
 #: prefs.js
 msgid "Menu"
-msgstr ""
+msgstr "Meniu"
 
 #: prefs.js
 msgid "Adjust how the Kiwi Menu looks and behaves."
-msgstr ""
+msgstr "Pritaikykite Kiwi meniu išvaizdą ir elgesį."
 
 #: prefs.js
 msgid "Menu Icon"
-msgstr ""
+msgstr "Meniu piktograma"
 
 #: prefs.js
 msgid "Choose the icon to display in the panel."
-msgstr ""
+msgstr "Pasirinkite piktogramą, kuri bus rodoma skydelyje."
 
 #: prefs.js
 msgid "Panel"
-msgstr ""
+msgstr "Skydelis"
 
 #: prefs.js
 msgid "Hide or show the Activities button from the top bar."
-msgstr ""
+msgstr "Slėpti arba rodyti veiklos mygtuką viršutinėje juostoje."
 
 #: prefs.js
 msgid "Hide Activities Menu"
-msgstr ""
+msgstr "Slėpti veiklos meniu"
 
 #: prefs.js
 msgid "Display the Activities button in the top panel."
-msgstr ""
+msgstr "Rodyti veiklos mygtuką viršutiniame skydelyje."
 
 #: prefs.js
 msgid "Quick Settings"
@@ -146,39 +146,39 @@ msgstr "Pašalina nustatymų nuorodos greitojo veiksmo mygtuką."
 
 #: prefs.js
 msgid "About"
-msgstr ""
+msgstr "Apie"
 
 #: prefs.js
 msgid "Website"
-msgstr ""
+msgstr "Svetainė"
 
 #: prefs.js
 msgid "Report an Issue"
-msgstr ""
+msgstr "Pranešti apie problemą"
 
 #: prefs.js
 msgid "Credits"
-msgstr ""
+msgstr "Autoriai"
 
 #: prefs.js
 msgid "Legal"
-msgstr ""
+msgstr "Teisinė informacija"
 
 #: prefs.js
 msgid "License"
-msgstr ""
+msgstr "Licencija"
 
 #: prefs.js
 msgid "Kiwi Menu is free and open source software."
-msgstr ""
+msgstr "Kiwi Menu yra nemokama ir atvirojo kodo programinė įranga."
 
 #: prefs.js
 msgid "GNU General Public License v3.0"
-msgstr ""
+msgstr "GNU Bendroji Viešoji Licencija v3.0"
 
 #: prefs.js
 msgid "Copyright"
-msgstr ""
+msgstr "Autorių teisės"
 
 #: prefs.js
 msgid ""

@@ -17,100 +17,100 @@ msgstr ""
 
 #: src/kiwimenu.js
 msgid "About This PC"
-msgstr ""
+msgstr "Tietoja tästä tietokoneesta"
 
 #: src/kiwimenu.js
 msgid "System Settings..."
-msgstr ""
+msgstr "Järjestelmäasetukset..."
 
 #: src/kiwimenu.js
 msgid "App Store..."
-msgstr ""
+msgstr "Sovelluskauppa..."
 
 #: src/kiwimenu.js
 msgid "Recent Items"
-msgstr ""
+msgstr "Viimeisimmät kohteet"
 
 #: src/kiwimenu.js
 msgid "Force Quit"
-msgstr ""
+msgstr "Pakota lopetus"
 
 #: src/kiwimenu.js
 msgid "Sleep"
-msgstr ""
+msgstr "Unitila"
 
 #: src/kiwimenu.js
 msgid "Restart..."
-msgstr ""
+msgstr "Käynnistä uudelleen..."
 
 #: src/kiwimenu.js
 msgid "Shut Down..."
-msgstr ""
+msgstr "Sammuta..."
 
 #: src/kiwimenu.js
 msgid "Lock Screen"
-msgstr ""
+msgstr "Lukitse näyttö"
 
 #: src/kiwimenu.js
 msgid "Log Out..."
-msgstr ""
+msgstr "Kirjaudu ulos..."
 
 #: src/kiwimenu.js
 #, javascript-format
 msgid "Log Out %s..."
-msgstr ""
+msgstr "Kirjaudu ulos %s..."
 
 #: src/recentItemsSubmenu.js
 msgid "No recent items"
-msgstr ""
+msgstr "Ei viimeaikaisia kohteita"
 
 #: src/recentItemsSubmenu.js
 msgid "Files"
-msgstr ""
+msgstr "Tiedostot"
 
 #: src/recentItemsSubmenu.js
 msgid "Folders"
-msgstr ""
+msgstr "Kansiot"
 
 #: src/recentItemsSubmenu.js
 msgid "Clear menu"
-msgstr ""
+msgstr "Tyhjennä valikko"
 
 #: prefs.js
 msgid "Options"
-msgstr ""
+msgstr "Asetukset"
 
 #: prefs.js
 msgid "Menu"
-msgstr ""
+msgstr "Valikko"
 
 #: prefs.js
 msgid "Adjust how the Kiwi Menu looks and behaves."
-msgstr ""
+msgstr "Mukauta Kiwi-valikon ulkonäköä ja toimintaa."
 
 #: prefs.js
 msgid "Menu Icon"
-msgstr ""
+msgstr "Valikon kuvake"
 
 #: prefs.js
 msgid "Choose the icon to display in the panel."
-msgstr ""
+msgstr "Valitse paneelissa näytettävä kuvake."
 
 #: prefs.js
 msgid "Panel"
-msgstr ""
+msgstr "Paneeli"
 
 #: prefs.js
 msgid "Hide or show the Activities button from the top bar."
-msgstr ""
+msgstr "Piilota tai näytä Toiminnot-painike yläpalkissa."
 
 #: prefs.js
 msgid "Hide Activities Menu"
-msgstr ""
+msgstr "Piilota Toiminnot-valikko"
 
 #: prefs.js
 msgid "Display the Activities button in the top panel."
-msgstr ""
+msgstr "Näytä Toiminnot-painike yläpaneelissa."
 
 #: prefs.js
 msgid "Quick Settings"
@@ -146,39 +146,39 @@ msgstr "Poistaa Asetukset-pikakuvakkeen pikatoimintopainikkeen."
 
 #: prefs.js
 msgid "About"
-msgstr ""
+msgstr "Tietoja"
 
 #: prefs.js
 msgid "Website"
-msgstr ""
+msgstr "Verkkosivusto"
 
 #: prefs.js
 msgid "Report an Issue"
-msgstr ""
+msgstr "Ilmoita ongelmasta"
 
 #: prefs.js
 msgid "Credits"
-msgstr ""
+msgstr "Tekijät"
 
 #: prefs.js
 msgid "Legal"
-msgstr ""
+msgstr "Lakiasiat"
 
 #: prefs.js
 msgid "License"
-msgstr ""
+msgstr "Lisenssi"
 
 #: prefs.js
 msgid "Kiwi Menu is free and open source software."
-msgstr ""
+msgstr "Kiwi Menu on ilmainen ja avoimen lähdekoodin ohjelmisto."
 
 #: prefs.js
 msgid "GNU General Public License v3.0"
-msgstr ""
+msgstr "GNU yleinen julkinen lisenssi v3.0"
 
 #: prefs.js
 msgid "Copyright"
-msgstr ""
+msgstr "Tekijänoikeus"
 
 #: prefs.js
 msgid ""
