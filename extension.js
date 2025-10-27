@@ -11,7 +11,7 @@ import { KiwiMenu } from './src/kiwimenu.js';
 export default class KiwiMenuExtension extends Extension {
   enable() {
     this._settings = this.getSettings();
-    this._indicator = new KiwiMenu(this._settings, this.path);
+    this._indicator = new KiwiMenu(this._settings, this.path, this);
     Main.panel.addToStatusArea('KiwiMenuButton', this._indicator, 0, 'left');
   }
 

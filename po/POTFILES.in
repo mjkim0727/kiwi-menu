@@ -1,0 +1,6 @@
+# List of source files containing translatable strings
+extension.js
+prefs.js
+src/kiwimenu.js
+src/recentItemsSubmenu.js
+src/forceQuitOverlay.js
