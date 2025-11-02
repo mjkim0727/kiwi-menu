@@ -1,5 +1,5 @@
 {
-  "description": "macOS-inspired quick menu for GNOME",
+  "description": "macOS-inspired quick menu for GNOME\n\n## Features\n\n* Recent Items\n* Power menu\n* Hide Quicksettings buttons\n* Hide Activities buttons\n* Multilingual support",
   "donations": {
     "custom": "https://revolut.me/arnisk"
   },
@@ -16,5 +16,5 @@
   "url": "https://github.com/kem-a/kiwi-menu",
   "uuid": "kiwimenu@kemma",
   "version": "",
-  "version-name": "1.1.0"
+  "version-name": "1.1.1"
 }
