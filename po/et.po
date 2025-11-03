@@ -65,8 +65,8 @@ msgid "No recent items"
 msgstr "Hiljutisi üksuseid pole"
 
 #: src/recentItemsSubmenu.js
-msgid "Files"
-msgstr "Failid"
+msgid "Documents"
+msgstr "Dokumendid"
 
 #: src/recentItemsSubmenu.js
 msgid "Folders"

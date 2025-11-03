@@ -65,8 +65,8 @@ msgid "No recent items"
 msgstr "Ei viimeaikaisia kohteita"
 
 #: src/recentItemsSubmenu.js
-msgid "Files"
-msgstr "Tiedostot"
+msgid "Documents"
+msgstr "Asiakirjat"
 
 #: src/recentItemsSubmenu.js
 msgid "Folders"

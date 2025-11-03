@@ -67,8 +67,8 @@ msgid "No recent items"
 msgstr "没有最近的项目"
 
 #: src/recentItemsSubmenu.js
-msgid "Files"
-msgstr "文件"
+msgid "Documents"
+msgstr "文档"
 
 #: src/recentItemsSubmenu.js
 msgid "Folders"

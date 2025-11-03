@@ -67,8 +67,8 @@ msgid "No recent items"
 msgstr "Nessun elemento recente"
 
 #: src/recentItemsSubmenu.js
-msgid "Files"
-msgstr "File"
+msgid "Documents"
+msgstr "Documenti"
 
 #: src/recentItemsSubmenu.js
 msgid "Folders"

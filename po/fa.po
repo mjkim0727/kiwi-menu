@@ -69,8 +69,8 @@ msgid "No recent items"
 msgstr "هیچ مورد اخیری وجود ندارد"
 
 #: src/recentItemsSubmenu.js
-msgid "Files"
-msgstr "پرونده‌ها"
+msgid "Documents"
+msgstr "اسناد"
 
 #: src/recentItemsSubmenu.js
 msgid "Folders"

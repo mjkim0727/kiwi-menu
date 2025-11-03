@@ -180,7 +180,7 @@ export const RecentItemsSubmenu = GObject.registerClass(
 
     // Add files section
     if (files.length > 0) {
-      const filesHeader = this._createSectionHeader(this._gettext('Files'));
+      const filesHeader = this._createSectionHeader(this._gettext('Documents'));
       menu.addMenuItem(filesHeader);
 
       files.forEach(({ title: itemTitle, uri }) => {

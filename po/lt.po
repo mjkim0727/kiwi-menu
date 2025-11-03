@@ -65,8 +65,8 @@ msgid "No recent items"
 msgstr "Nėra naujausių elementų"
 
 #: src/recentItemsSubmenu.js
-msgid "Files"
-msgstr "Failai"
+msgid "Documents"
+msgstr "Dokumentai"
 
 #: src/recentItemsSubmenu.js
 msgid "Folders"
