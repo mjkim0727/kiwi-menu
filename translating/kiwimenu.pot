@@ -94,7 +94,6 @@ msgid "Menu Icon"
 msgstr ""
 
 #: prefs.js
-#: schemas/org.gnome.shell.extensions.kiwimenu.gschema.xml
 msgid "App Store Command"
 msgstr ""
 
@@ -104,14 +103,6 @@ msgstr ""
 
 #: prefs.js
 msgid "Restore Default"
-msgstr ""
-
-#: schemas/org.gnome.shell.extensions.kiwimenu.gschema.xml
-msgid "App Store command"
-msgstr ""
-
-#: schemas/org.gnome.shell.extensions.kiwimenu.gschema.xml
-msgid "Command executed when launching the App Store menu item"
 msgstr ""
 
 #: prefs.js
