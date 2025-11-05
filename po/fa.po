@@ -56,6 +56,10 @@ msgid "Lock Screen"
 msgstr "صفحه قفل"
 
 #: src/kiwimenu.js
+msgid "Switch User..."
+msgstr "تعویض کاربر..."
+
+#: src/kiwimenu.js
 msgid "Log Out..."
 msgstr "خروج..."
 
@@ -75,6 +79,10 @@ msgstr "اسناد"
 #: src/recentItemsSubmenu.js
 msgid "Folders"
 msgstr "شاخه‌ها"
+
+#: src/recentItemsSubmenu.js
+msgid "Applications"
+msgstr "برنامه‌ها"
 
 #: src/recentItemsSubmenu.js
 msgid "Clear Menu"

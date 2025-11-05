@@ -52,6 +52,10 @@ msgid "Lock Screen"
 msgstr "Lukitse näyttö"
 
 #: src/kiwimenu.js
+msgid "Switch User..."
+msgstr "Vaihda käyttäjää..."
+
+#: src/kiwimenu.js
 msgid "Log Out..."
 msgstr "Kirjaudu ulos..."
 
@@ -71,6 +75,10 @@ msgstr "Asiakirjat"
 #: src/recentItemsSubmenu.js
 msgid "Folders"
 msgstr "Kansiot"
+
+#: src/recentItemsSubmenu.js
+msgid "Applications"
+msgstr "Sovellukset"
 
 #: src/recentItemsSubmenu.js
 msgid "Clear Menu"

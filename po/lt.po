@@ -52,6 +52,10 @@ msgid "Lock Screen"
 msgstr "Užrakinti ekraną"
 
 #: src/kiwimenu.js
+msgid "Switch User..."
+msgstr "Perjungti vartotoją..."
+
+#: src/kiwimenu.js
 msgid "Log Out..."
 msgstr "Atsijungti..."
 
@@ -71,6 +75,10 @@ msgstr "Dokumentai"
 #: src/recentItemsSubmenu.js
 msgid "Folders"
 msgstr "Aplankai"
+
+#: src/recentItemsSubmenu.js
+msgid "Applications"
+msgstr "Programos"
 
 #: src/recentItemsSubmenu.js
 msgid "Clear Menu"

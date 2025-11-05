@@ -54,6 +54,10 @@ msgid "Lock Screen"
 msgstr "锁定屏幕"
 
 #: src/kiwimenu.js
+msgid "Switch User..."
+msgstr "切换用户..."
+
+#: src/kiwimenu.js
 msgid "Log Out..."
 msgstr "退出登录..."
 
@@ -73,6 +77,10 @@ msgstr "文档"
 #: src/recentItemsSubmenu.js
 msgid "Folders"
 msgstr "文件夹"
+
+#: src/recentItemsSubmenu.js
+msgid "Applications"
+msgstr "应用程序"
 
 #: src/recentItemsSubmenu.js
 msgid "Clear Menu"

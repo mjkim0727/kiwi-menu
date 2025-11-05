@@ -52,6 +52,10 @@ msgid "Lock Screen"
 msgstr "Zablokuj ekran"
 
 #: src/kiwimenu.js
+msgid "Switch User..."
+msgstr "Przełącz użytkownika..."
+
+#: src/kiwimenu.js
 msgid "Log Out..."
 msgstr "Wyloguj..."
 
@@ -71,6 +75,10 @@ msgstr "Dokumenty"
 #: src/recentItemsSubmenu.js
 msgid "Folders"
 msgstr "Foldery"
+
+#: src/recentItemsSubmenu.js
+msgid "Applications"
+msgstr "Aplikacje"
 
 #: src/recentItemsSubmenu.js
 msgid "Clear Menu"
