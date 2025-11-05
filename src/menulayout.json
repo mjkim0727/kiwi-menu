@@ -61,7 +61,7 @@
   },
   {
     "type": "menu",
-    "title": "Switch User",
+    "title": "Switch User...",
     "cmds": ["gdmflexiserver"],
     "requiresMultipleUsers": true
   },
