@@ -191,9 +191,10 @@ export const KiwiMenu = GObject.registerClass(
       const fullName = GLib.get_real_name() || GLib.get_user_name() || '';
 
       const layoutSource = this._layout ?? [];
+      const hasMultipleUsers = this._hasMultipleLoginUsers();
+      const items = [];
 
-      return layoutSource.map((item) => {
-        // Translate menu title
+      for (const item of layoutSource) {
         let translatedTitle = item.title ? this._gettext(item.title) : item.title;
         let cmds = item.cmds ? [...item.cmds] : undefined;
 
@@ -201,23 +202,75 @@ export const KiwiMenu = GObject.registerClass(
           cmds = this._resolveCommandFromSettings(item.commandSettingKey, cmds);
         }
 
+        let title = translatedTitle;
         if (item.type === 'menu' && cmds?.includes('--logout')) {
-          const title = fullName
+          title = fullName
             ? this._gettext('Log Out %s...').format(fullName)
             : translatedTitle;
-          return {
-            ...item,
-            title,
-            cmds,
-          };
         }
 
-        return {
+        const outputItem = {
           ...item,
-          title: translatedTitle,
+          title,
           cmds,
         };
-      });
+
+        if (outputItem.requiresMultipleUsers && !hasMultipleUsers) {
+          continue;
+        }
+
+        items.push(outputItem);
+      }
+
+      return items;
+    }
+
+    _hasMultipleLoginUsers() {
+      try {
+        const [success, contents] = GLib.file_get_contents('/etc/passwd');
+        if (!success || !contents) {
+          return false;
+        }
+        const decoder = new TextDecoder();
+        const data = decoder.decode(contents);
+
+        let count = 0;
+        for (const line of data.split('\n')) {
+          if (!line || line.startsWith('#')) {
+            continue;
+          }
+
+          const parts = line.split(':');
+          if (parts.length < 7) {
+            continue;
+          }
+
+          const uid = Number.parseInt(parts[2], 10);
+          const shell = parts[6]?.trim();
+
+          if (!Number.isInteger(uid)) {
+            continue;
+          }
+
+          if (
+            uid >= 1000 &&
+            shell &&
+            shell !== '/usr/sbin/nologin' &&
+            shell !== '/usr/bin/nologin' &&
+            shell !== '/bin/false'
+          ) {
+            count += 1;
+            if (count > 1) {
+              return true;
+            }
+          }
+        }
+
+        return false;
+      } catch (error) {
+        logError(error, 'Failed to determine available login users');
+        return false;
+      }
     }
 
     _makeMenu(title, cmds) {
