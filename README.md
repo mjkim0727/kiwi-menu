@@ -22,9 +22,9 @@ Kiwi Menu replaces the Activities button with a compact, macOS-inspired launcher
 
 Recommended to pair with [Kiwi is not Apple](https://extensions.gnome.org/extension/8276/kiwi-is-not-apple/).
 
-## Recent Applications menu is cleared after log out. This is limitation of Gnome shell
+## Known Issues
 
-- None
+- Recent Applications menu is cleared after log out. This is limitation of Gnome shell
 
 ## Future implementations
 - [x] add translations
